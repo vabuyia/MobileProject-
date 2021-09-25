@@ -11,12 +11,12 @@ body {
 }
 
 .tonic {
-  display: grid; 
+  display: grid; /* end-of-line comment */
   grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
   margin-left: 142px;
   margin-right: 142px;
-  padding: 24px 24px 24px 24px;
+  padding: 24px;
   background-color: white;
   border-radius: 20px;
   width: 1156px;
@@ -41,7 +41,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #091e42;
 }
@@ -54,30 +54,29 @@ body {
 
 .tonic-b2 li {
   display: inline-block;
-  color: strong #344563;
+  color: #263c63;
   text-align: left;
 }
 
 .tonic-b3 {
   padding-right: 46px;
   padding-top: 10px;
-  color: #344563;
+  color: #0c306d;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  height: 0px;
+  height: 0;
   width: 496px;
   left: 24px;
   top: 100px;
 }
 
 .tonic-b4 {
-  display: flex; 
-  
+  display: flex; /* end-of-line comment */
 }
 
 .tonic-b4 ul {
@@ -91,7 +90,7 @@ body {
 }
 
 .multi-post {
-  display: grid; 
+  display: grid; /* end-of-line comment */
   grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
   margin: 142px 142px;
@@ -102,15 +101,82 @@ body {
   height: 496px;
 }
 
-.multi-post12 ul li{
-  display:inline-block;
-  text-align: left;
-  word-spacing: 20px;
+.lang2 li {
+  list-style: none;
 }
 
-.multi-post li{
-  display:inline-block;
+.app li {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.uber14 li {
+  display: inline-block;
+  text-decoration: none;
+  word-spacing: 5px;
+}
+
+.facebook22 li {
+  display: inline-block;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.facebook23 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #13223b;
+}
+
+.facebook24 li {
+  display: inline-block;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #6070ff;
+}
+
+.post15 li {
+  display: inline-block;
+  text-decoration: none;
+  word-spacing: 5px;
+}
+
+.uber12 li {
+  display: inline-block;
+  text-decoration: none;
+  word-spacing: 5px;
+}
+
+.uber13 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #04193f;
+}
+
+.multi-post li {
+  display: inline-block;
   justify-content: space-between;
+}
+
+.post13 li {
+  display: flex;
+  display: inline-block; /* end-of-line comment */
+}
+
+.multi-post12 ul li {
+  display: inline-block;
+  text-align: left;
+  word-spacing: 20px;
 }
 
 .multi-post13 {
@@ -119,7 +185,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #344563;
 }
@@ -130,18 +196,17 @@ body {
   padding-top: 48px;
   padding-right: 46px;
   padding-bottom: 20px;
-  color:#091E42;
+  color: #091e42;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
 .post13 {
-  display: grid;
+  display: grid; /* end-of-line comment */
   grid-template-columns: 1fr 1fr 1fr;
   height: 24px;
   width: 96px;
@@ -151,13 +216,8 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-}
-
-.post13 li {
-  display:flex;
-  display: inline-block;
 }
 
 .post14 {
@@ -165,7 +225,6 @@ body {
   width: 496px;
   left: 24px;
   top: 146px;
-  border-radius: nullpx;
 }
 
 .post14 p {
@@ -176,7 +235,7 @@ body {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: strong #344563;
+  color: #053480;
 }
 
 .post15 {
@@ -184,15 +243,7 @@ body {
   height: 18px;
 }
 
-.post15 ul{ 
-  display: flex; 
-}
-
-.post15 li {
-  display: inline-block;
-  text-decoration: none;
-  word-spacing: 5px;
-}
+.post15 ul { display: flex; }
 
 .post16 {
   width: 100px;
@@ -203,7 +254,7 @@ body {
 }
 
 .facebook {
-  display: grid; 
+  display: grid; /* end-of-line comment */
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   margin: 142px 142px;
@@ -214,33 +265,9 @@ body {
   height: 496px;
 }
 
-.facebook22 li {
-  display: inline-block;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.facebook24 li {
-  display: inline-block;
-  justify-content: space-evenly;
-  align-items: center;
-  color: #6070ff;
-}
-
-.facebook23 p {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #344563;
-}
-
 .uber-navigation {
-  display: grid; 
-  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* end-of-line comment */
   grid-gap: 5px;
   margin: 142px;
   padding: 24px 24px 0 24px;
@@ -256,36 +283,12 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
   text-align: left;
-  color: #091e42;
-}
-
-.uber12 li {
-  display: inline-block;
-  text-decoration: none;
-  word-spacing: 5px;
-}
-
-.uber13 {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #344563;
-}
-
-.uber14 li {
-  display: inline-block;
-  text-decoration: none;
-  word-spacing: 5px;
+  color: #041d47;
 }
 
 .about-myself {
-  display: grid; 
+  display: grid; /* end-of-line comment */
   grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
   margin: 142px 142px 0 142px;
@@ -302,13 +305,11 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   word-spacing: 5px;
   text-align: left;
   height: 114px;
   width: 447px;
-  left: 0px;
-  top: 0px;
 }
 
 .dep {
@@ -317,9 +318,9 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #344563;
+  color: #7092cc;
 }
 
 .app {
@@ -328,19 +329,13 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #7f8cff;
+  color: #626dcf;
 }
 
-.app ul{
-  display: flex; 
-}
-
-.app li {
+.app ul {
   display: flex;
-  list-style: none;
-  justify-content: space-evenly;
 }
 
 .lang1 {
@@ -353,9 +348,9 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #344563;
+  color: #4e6b9c;
 }
 
 .lang21 {
@@ -364,8 +359,7 @@ body {
   left: 12px;
   top: 12px;
   border-radius: 8px;
-  background-color: #f7f7f9;
-  border-radius: 8px;
+  background-color: white;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -378,11 +372,8 @@ body {
   left: 12px;
   top: 12px;
   border-radius: 8px;
-  background-color: #f7f7f9;
-  border-radius: 8px;
+  background-color: white;
   flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 0 12px;
 }
 
@@ -392,37 +383,28 @@ body {
   left: 12px;
   top: 12px;
   border-radius: 8px;
-  background-color: #f7f7f9;
-  border-radius: 8px;
+  background-color: white;
   flex: none;
-  order: 0;
+  order: 0; /* end-of-line comment */
   flex-grow: 0;
   margin: 0 12px;
 }
 
 .lang2 {
-  padding-top: 30px; 
+  padding-top: 30px;
 }
 
-.lang2 ul{
-  display: flex; 
-}
+.lang2 ul { display: flex; }
 
-.lang2 li {
-  list-style: none;
-}
-
-.lang3 {
-  padding-top: 10px; 
+.lang3 { /* end-of-line comment */
+  padding-top: 10px;
   height: 1px;
   width: 684px;
-  left: 0px;
+  left: 0;
   top: 71px;
-  border-radius: 0px;
 }
 
 hr {
   width: 50%;
-  size: 3px;
   color: black;
 }
