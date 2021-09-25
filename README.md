@@ -2,7 +2,7 @@
 *you will create the mobile website section where you will list your portfolio projects.
 -For the first milestone in the process of creating your portfolio website, you will:
 -set up a new repository and prepare it for development using best practices (e.g. linters).
--Build the pages in the websites to describe portfolio. 
+-Build a personal portfolio site. 
 
 Additional description about the project and its features.
 -Create a new GitHub repo.
