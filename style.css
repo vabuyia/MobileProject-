@@ -11,7 +11,7 @@ body {
 }
 
 .tonic {
-  display: grid; 
+  display: grid; /* end-of-line comment */
   grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
   margin-left: 142px;
@@ -54,7 +54,7 @@ body {
 
 .tonic-b2 li {
   display: inline-block;
-  color: strong #263c63;
+  color: #263c63;
   text-align: left;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .tonic-b4 {
-  display: flex; 
+  display: flex; /* end-of-line comment */
 }
 
 .tonic-b4 ul {
@@ -129,7 +129,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #13223b;
 }
@@ -140,21 +140,22 @@ body {
   align-items: center;
   color: #6070ff;
 }
+
 .post15 li {
   display: inline-block;
   text-decoration: none;
   word-spacing: 5px;
 }
 
+.multi-post li {
+  display: inline-block;
+  justify-content: space-between;
+}
+
 .multi-post12 ul li {
   display: inline-block;
   text-align: left;
   word-spacing: 20px;
-}
-
-.multi-post li {
-  display: inline-block;
-  justify-content: space-between;
 }
 
 .multi-post13 {
@@ -174,7 +175,7 @@ body {
   padding-top: 48px;
   padding-right: 46px;
   padding-bottom: 20px;
-  color:#091e42;
+  color: #091e42;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-style: normal;
@@ -218,7 +219,7 @@ body {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: strong #202a3b;
+  color: #053480;
 }
 
 .post15 {
@@ -227,7 +228,7 @@ body {
 }
 
 .post15 ul { 
-  display: flex; 
+  display: flex; /* end-of-line comment */
 }
 
 .post16 {
@@ -239,7 +240,7 @@ body {
 }
 
 .facebook {
-  display: grid; 
+  display: grid; /* end-of-line comment */
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   margin: 142px 142px;
@@ -252,7 +253,7 @@ body {
 
 .uber-navigation {
   display: grid; 
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr; /* end-of-line comment */
   grid-gap: 5px;
   margin: 142px;
   padding: 24px 24px 0 24px;
@@ -268,7 +269,6 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
   text-align: left;
   color: #041d47;
 }
@@ -285,13 +285,12 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: #04193f;
 }
 
 .about-myself {
-  display: grid; 
+  display: grid; /* end-of-line comment */
   grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
   margin: 142px 142px 0 142px;
@@ -390,9 +389,8 @@ body {
   top: 12px;
   border-radius: 8px;
   background-color: white;
-  border-radius: 8px;
   flex: none;
-  order: 0;
+  order: 0; /* end-of-line comment */
   flex-grow: 0;
   margin: 0 12px;
 }
@@ -401,12 +399,12 @@ body {
   padding-top: 30px;
 }
 
-.lang2 ul{
+.lang2 ul {
   display: flex; 
 }
 
 .lang3 {
-  padding-top: 10px; 
+  padding-top: 10px; /* end-of-line comment */ 
   height: 1px;
   width: 684px;
   left: 0;
