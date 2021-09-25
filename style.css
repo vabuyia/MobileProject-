@@ -168,6 +168,11 @@ body {
   justify-content: space-between;
 }
 
+.post13 li {
+  display: flex;
+  display: inline-block; 
+}
+
 .multi-post12 ul li {
   display: inline-block;
   text-align: left;
@@ -214,8 +219,6 @@ body {
   letter-spacing: 0;
   text-align: left;
 }
-
-.post13 li { display: flex; display: inline-block; }
 
 .post14 {
   height: 70px;
@@ -370,7 +373,6 @@ body {
   top: 12px;
   border-radius: 8px;
   background-color: white;
-  border-radius: 8px;
   flex: none;
   margin: 0 12px;
 }
@@ -394,7 +396,7 @@ body {
 
 .lang2 ul { display: flex; }
 
-.lang3 { 
+.lang3 { /* end-of-line comment */
   padding-top: 10px;
   height: 1px;
   width: 684px;
