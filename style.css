@@ -215,10 +215,7 @@ body {
   text-align: left;
 }
 
-.post13 li {
-  display: flex;
-  display: inline-block;
-}
+.post13 li { display: flex; display: inline-block; }
 
 .post14 {
   height: 70px;
@@ -243,9 +240,7 @@ body {
   height: 18px;
 }
 
-.post15 ul { 
-  display: flex; /* end-of-line comment */
-}
+.post15 ul { display: flex; }
 
 .post16 {
   width: 100px;
@@ -268,7 +263,7 @@ body {
 }
 
 .uber-navigation {
-  display: grid; 
+  display: grid;
   grid-template-columns: 1fr 1fr; /* end-of-line comment */
   grid-gap: 5px;
   margin: 142px;
@@ -375,10 +370,8 @@ body {
   top: 12px;
   border-radius: 8px;
   background-color: white;
-  border-radius: 8px; /* end-of-line comment */
+  border-radius: 8px;
   flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 0 12px;
 }
 
@@ -401,8 +394,8 @@ body {
 
 .lang2 ul { display: flex; }
 
-.lang3 {
-  padding-top: 10px; /* end-of-line comment */ 
+.lang3 { 
+  padding-top: 10px;
   height: 1px;
   width: 684px;
   left: 0;
